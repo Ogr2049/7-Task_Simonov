@@ -38,7 +38,7 @@ services:
       - "8888:8888"
     environment:
       SPRING_PROFILES_ACTIVE: docker
-      SPRING_CLOUD_CONFIG_SERVER_GIT_URI: https://github.com/Ogr2049/НОВОЕ_ИМЯ_КОНФИГ_РЕПОЗИТОРИЯ.git
+      SPRING_CLOUD_CONFIG_SERVER_GIT_URI: https://github.com/Ogr2049/user-service-config-7.git
     networks:
       - user-service-network
     depends_on:
